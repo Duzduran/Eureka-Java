@@ -15,11 +15,6 @@ public class LC0001_Test {
         int[] res = twoSum.twoSum(nums, target);
         assertEquals(target, nums[res[0]] + nums[res[1]]);
 
-        res = twoSum.twoSum(nums, target);
-        assertEquals(target, nums[res[0]] + nums[res[1]]);
-
-        res = twoSum.twoSum(nums, target);
-        assertEquals(target, nums[res[0]] + nums[res[1]]);
     }
 
     @Test
@@ -28,12 +23,6 @@ public class LC0001_Test {
         int target = 6;
 
         int[] res = twoSum.twoSum(nums, target);
-        assertEquals(target, nums[res[0]] + nums[res[1]]);
-
-        res = twoSum.twoSum(nums, target);
-        assertEquals(target, nums[res[0]] + nums[res[1]]);
-
-        res = twoSum.twoSum(nums, target);
         assertEquals(target, nums[res[0]] + nums[res[1]]);
     }
 }
